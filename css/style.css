@@ -58,6 +58,34 @@ a {
     color: var(--main-bg-color)
 }
 
+/* Header */ 
+
+.header {
+    display: flex;
+}
+
+.header_booki {
+    width:80% ;
+    height: 70px;
+    align-content:center;
+    padding-left: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.menu:hover {
+    color: #6caaff;
+    border-top: 2px solid #6caaff;
+}
+
+.menu {
+    padding:10px 25px 25px 25px;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
