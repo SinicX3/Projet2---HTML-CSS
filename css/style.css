@@ -71,15 +71,15 @@ a {
     padding-left: 20px;
 }
 
-nav {
+.nav {
     display: flex;
     flex-direction: row;
     font-size: 15px;
 }
 
 .menu:hover {
-    color: #6caaff;
-    border-top: 2px solid #6caaff;
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
 }
 
 .menu {
