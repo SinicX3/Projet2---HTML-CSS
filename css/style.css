@@ -42,7 +42,7 @@ a {
 }
 
 .section-title {
-    margin: 0;
+    margin-bottom: 15px;
     font-size: 22px;
 }
 
@@ -188,6 +188,31 @@ a {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+
+}
+
+.hebergements-cards img {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hebergements-cards img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /****** Populaires ***********/
