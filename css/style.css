@@ -66,6 +66,7 @@ a {
 .card-title {
     font-size: 16px;
     font-weight: bold;
+
 }
 
 .populaires .card-rating, .populaires .card-txt {
@@ -79,6 +80,7 @@ a {
 
 .espace {
     margin:20px;
+    padding-bottom: 15px;
 }
 
 .espace .section-title {
@@ -101,26 +103,6 @@ a {
 .filtre {
     padding:10px;
     margin:10px;
-}
-
-.footer {
-    display: flex;
-    flex-grow: 1em 1em 1em;
-    width: 100%;
-    justify-content: space-between;
-    background-color: #F2F2F2;
-}
-
-.fcard {
-    width:30%;
-}
-
-.footer ul {
-    list-style-type: none;
-}
-
-.footer li {
-    padding:8px;
 }
 
 .format {
@@ -214,6 +196,28 @@ a {
 
 .menu {
     padding:10px 25px 25px 25px;
+}
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    flex-grow: 1em 1em 1em;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+
+.fcard {
+    width:30%;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer li {
+    padding:8px;
 }
 
 /****** Hebergements And Populaires ***********/
