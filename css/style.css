@@ -103,6 +103,26 @@ a {
     margin:10px;
 }
 
+.footer {
+    display: flex;
+    flex-grow: 1em 1em 1em;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+
+.fcard {
+    width:30%;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer li {
+    padding:8px;
+}
+
 .format {
     display: flex;
     padding: 10px;
