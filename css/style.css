@@ -21,7 +21,6 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
     box-sizing: border-box;
 }
 
@@ -66,7 +65,6 @@ a {
 .card-title {
     font-size: 16px;
     font-weight: bold;
-
 }
 
 .populaires .card-rating, .populaires .card-txt {
@@ -91,6 +89,14 @@ a {
     font-weight: 700;
 }
 
+.full_txt {
+    display: inline-block;
+}
+
+.short_txt {
+   display: none;
+}
+
 .fa-solid {
     font-size: 18px;
 }
@@ -98,6 +104,14 @@ a {
 .fa-info {
     font-size: 12px;
     padding:4px;
+}
+
+.fa-location-dot {
+    color: #000000;
+}
+
+.fa-magnifying-glass {
+    color: white;
 }
 
 .filtre {
@@ -114,18 +128,25 @@ a {
     font-size: 15px;
 }
 
-.it {
-    font-style: italic;
+.format_nw {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    font-size: 12px;
+    flex-wrap: nowrap;
+    font-weight: bold;
+    font-size: 15px;    
 }
 
 .gray {
     background-color: #f1f1f1;
     border-radius: 10px 0px 0px 10px;
     padding:20px;
+}
+
+.it {
+    font-style: italic;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
 }
 
 .input {
@@ -388,11 +409,49 @@ a {
 }
 
     .format {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 150px 150px;
         font-weight: bold;
         font-size: 15px;
+        padding:0px;
+        margin:0px;
+        margin-top:15px;
     }    
+
+    .i1 {
+        grid-column: 1/2;
+    }
+
+    .i2 {
+        grid-row: 2;
+    }
+
+    .i3 {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .i4 {
+        grid-row: 3;
+    }
+
+    .i5 {
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    .filtre {
+        padding:5px;
+        margin:5px;
+    }
+
+    .full_txt {
+        display: none;
+    }
+    
+    .short_txt {
+        display: inline-block;
+    }
 
     .format_nw {
         display: flex;
@@ -405,8 +464,13 @@ a {
         flex-direction: column-reverse;
     }
 
-    .hebergements {
-        width: 100%;
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+    }
+
+    .hebergements-and-populaires .hebergements {
+        border-radius: 0px;
+        background-color: white;
     }
 
     .populaires {
