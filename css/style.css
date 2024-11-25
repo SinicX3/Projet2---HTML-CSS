@@ -9,10 +9,6 @@
     --filter-bg-color: #DEEBFF;
 }
 
-.fa-solid {
-    color: var(--main-color);
-}
-
 body {
     display: flex;
     justify-content: center;
@@ -73,23 +69,6 @@ a {
 
 .short_txt {
     display: none;
-}
-
-.fa-solid {
-    font-size: 18px;
-}
-
-.fa-info {
-    font-size: 12px;
-    padding:4px;
-}
-
-.fa-location-dot {
-    color: #000000;
-}
-
-.fa-magnifying-glass {
-    color: white;
 }
 
 .filtre {
@@ -170,6 +149,26 @@ a {
 .txt {
     margin-left: 10px;
 } 
+
+/**Icônes**/
+
+.fa-solid {
+    color: var(--main-color);
+    font-size: 18px;
+}
+
+.fa-info {
+    font-size: 12px;
+    padding:4px;
+}
+
+.fa-location-dot {
+    color: #000000;
+}
+
+.fa-magnifying-glass {
+    color: white;
+}
 
 /*Cards*/
 
