@@ -12,7 +12,6 @@
 body {
     display: flex;
     justify-content: center;
-    margin:0px;
 }
 
 .main-container {
@@ -413,10 +412,6 @@ a {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    body {
-        margin-left:10px;
-    }
-
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -456,10 +451,6 @@ a {
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-
-    body {
-        margin-left:10px;
-    }
 
     .main-container {
         width: 100%;
